@@ -28,3 +28,34 @@ color:indianred;
     color:lawngreen;
     font-size: 20px;
 }
+
+table{
+    border: solid;
+    padding: 30px 35px 40px;
+    margin: 50px 50px;
+    width: 60%; 
+  }
+  th{
+    color:black;
+    border: 1px solid black;
+    text-align: left;
+    background-color:burlywood;
+
+  }
+  td{
+    color: black;
+    border: 1px mixed black;
+    text-align: left;
+  }
+
+  tr:nth-child(even){
+    background-color: skyblue;
+  }
+
+  .name:hover{
+    text-shadow: 2px 4px 3px rgb(77, 59, 143);
+    color:chartreuse;
+    filter: pink(3px);
+    border: solid 2px rgb(15, 15, 15);
+  }
+  
